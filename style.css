@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,400i,700&display=swap');
+
+
+
+/* BODY*/
+
+body {
+  background-color:#f9f4f4;
+  font-family: 'Nunito', sans-serif;
+  color: grey;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.container {
+  width: 700px;
+  margin: auto;
+  align-items: center;
+}
+
+@media (max-width: 960px) {
+
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.container h1 {
+  font-weight: 800;
+  margin-bottom: 2px;
+}
+
+.container h2 {
+  margin-top: 2px;
+}
+
+.text-center{
+  text-align: center;
+}
+
+/* Generic card */
+
+.card {
+/*  margin-top: 20px;*/
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin: 20px;
+
+  /*width: 500px;*/
+}
+
+/* round image */
+
+.img-round {
+  border-radius: 50px;
+}
+
+/* Button */
+
+.btn-blue {
+  display: inline-block;
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+}
+
+.btn-blue:hover {
+  /*display: inline-block;*/
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: blue;
+  color: blue;
+  /*padding: 10px;*/
+ /* border-radius: 5px;
+  text-decoration: none;*/
+}
+
+/* Social media icons */
+
+.list-social li {
+  list-style-type: none;
+  display: inline-block;
+  font-size: 30px;
+}
+
+.list-social > li > a > i {
+  color: blue;
+}
+
+.list-social {
+  padding: 0;
+}
+
+
